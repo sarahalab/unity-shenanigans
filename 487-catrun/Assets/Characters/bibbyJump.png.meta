@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9b58216495ebf51489c5ec34ec1049f6
+guid: aa7e924e16ac4e54e9013bbdb4057006
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 24
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bibby_walk_0
+      name: bibbyJump_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 36
-        height: 36
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b189804b9aabae46be5601ebc45144a
-      internalID: 52514848
+      spriteID: c4193b5b2f7ee4e4bb76e46068acecfb
+      internalID: 1350486031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bibby_walk_1
+      name: bibbyJump_1
       rect:
         serializedVersion: 2
-        x: 36
+        x: 50
         y: 0
-        width: 36
-        height: 36
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93acf72c30c165e44a651813b4283e76
-      internalID: -1956492727
+      spriteID: 017afaff6d6af794796e8a632cbc5dba
+      internalID: -1563084985
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bibby_walk_2
+      name: bibbyJump_2
       rect:
         serializedVersion: 2
-        x: 72
+        x: 100
         y: 0
-        width: 36
-        height: 36
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb3faf6581426c9429f37e79c07f2f38
-      internalID: -887959278
+      spriteID: 9b1229cdd07927d44b583bf23c52d017
+      internalID: 1929575311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bibby_walk_3
+      name: bibbyJump_3
       rect:
         serializedVersion: 2
-        x: 108
+        x: 150
         y: 0
-        width: 36
-        height: 36
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 694e8a0a8ce5b274ca075726e4a321cc
-      internalID: 1452589060
+      spriteID: af546734e1d785449b32d6251ef8a705
+      internalID: -74961888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bibby_walk_4
+      name: bibbyJump_4
       rect:
         serializedVersion: 2
-        x: 144
+        x: 200
         y: 0
-        width: 36
-        height: 36
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bc9f7ed7d9eacb4bb57b66dc4cbe9ce
-      internalID: 8760669
+      spriteID: 1640db528177a1346b354a7011a0c895
+      internalID: -993876086
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bibby_walk_5
+      name: bibbyJump_5
       rect:
         serializedVersion: 2
-        x: 180
+        x: 250
         y: 0
-        width: 36
-        height: 36
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,8 +242,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a552ee4f19c84514e9f6eb46805bf57e
-      internalID: 1738494573
+      spriteID: 726bfc156e6ac2e428781a55bb93c4af
+      internalID: -1854208892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bibbyJump_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb09dbb1f76648a4bbb0882f127f2f5e
+      internalID: 636549127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bibbyJump_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb09293808dffe4885b18d74c8dea14
+      internalID: 2042098334
       vertices: []
       indices: 
       edges: []
@@ -259,12 +301,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      bibby_walk_0: 52514848
-      bibby_walk_1: -1956492727
-      bibby_walk_2: -887959278
-      bibby_walk_3: 1452589060
-      bibby_walk_4: 8760669
-      bibby_walk_5: 1738494573
+      bibbyJump_0: 1350486031
+      bibbyJump_1: -1563084985
+      bibbyJump_2: 1929575311
+      bibbyJump_3: -74961888
+      bibbyJump_4: -993876086
+      bibbyJump_5: -1854208892
+      bibbyJump_6: 636549127
+      bibbyJump_7: 2042098334
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

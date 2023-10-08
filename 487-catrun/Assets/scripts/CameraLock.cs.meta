@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:487-catrun/Assets/scripts/CameraLock.cs.meta
 guid: 7e1f387d8c31a474db2bbd0787a4b9d0
+=======
+guid: 2b1474ef69454ff459949aa77877d23b
+>>>>>>> 3a1d5a9f7c5080d73c924a6fbb38cf1fb72a16e5:487 project 1/Assets/scripts/CameraLock.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

@@ -2,7 +2,11 @@ using UnityEngine;
 using Cinemachine;
 
 /// <summary>
+<<<<<<< HEAD:487-catrun/Assets/scripts/CameraLock.cs
 /// An add-on module for Cinemachine Virtual Camera that locks the camera's Y co-ordinate
+=======
+/// An add-on module for Cinemachine Virtual Camera that locks the camera's X co-ordinate
+>>>>>>> 3a1d5a9f7c5080d73c924a6fbb38cf1fb72a16e5:487 project 1/Assets/scripts/CameraLock.cs
 /// </summary>
 [ExecuteInEditMode]
 [SaveDuringPlay]

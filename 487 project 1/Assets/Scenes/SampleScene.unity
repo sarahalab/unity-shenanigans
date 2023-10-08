@@ -3153,17 +3153,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1796217707 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3809905421789797540, guid: 71220aefc3bdb204daaaf96c0806109b, type: 3}
-  m_PrefabInstance: {fileID: 2089918634}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 170268229}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03f3012395486584aaeda93b234abd9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1844342787
 GameObject:
   m_ObjectHideFlags: 0
@@ -3380,49 +3369,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 261439236233346433, guid: 71220aefc3bdb204daaaf96c0806109b, type: 3}
-      propertyPath: m_ActionEvents.Array.size
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 261439236233346433, guid: 71220aefc3bdb204daaaf96c0806109b, type: 3}
-      propertyPath: m_ActionEvents.Array.data[14].m_ActionId
-      value: 00234713-498e-4dc2-8a48-876c18afc9eb
-      objectReference: {fileID: 0}
-    - target: {fileID: 261439236233346433, guid: 71220aefc3bdb204daaaf96c0806109b, type: 3}
-      propertyPath: m_ActionEvents.Array.data[14].m_ActionName
-      value: Player/Jump[/Keyboard/space]
-      objectReference: {fileID: 0}
-    - target: {fileID: 261439236233346433, guid: 71220aefc3bdb204daaaf96c0806109b, type: 3}
-      propertyPath: m_ActionEvents.Array.data[14].m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 261439236233346433, guid: 71220aefc3bdb204daaaf96c0806109b, type: 3}
-      propertyPath: m_ActionEvents.Array.data[14].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 261439236233346433, guid: 71220aefc3bdb204daaaf96c0806109b, type: 3}
-      propertyPath: m_ActionEvents.Array.data[14].m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1796217707}
-    - target: {fileID: 261439236233346433, guid: 71220aefc3bdb204daaaf96c0806109b, type: 3}
-      propertyPath: m_ActionEvents.Array.data[14].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 261439236233346433, guid: 71220aefc3bdb204daaaf96c0806109b, type: 3}
-      propertyPath: m_ActionEvents.Array.data[14].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnJump
-      objectReference: {fileID: 0}
-    - target: {fileID: 261439236233346433, guid: 71220aefc3bdb204daaaf96c0806109b, type: 3}
-      propertyPath: m_ActionEvents.Array.data[14].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlayerController, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 261439236233346433, guid: 71220aefc3bdb204daaaf96c0806109b, type: 3}
-      propertyPath: m_ActionEvents.Array.data[14].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 2897602933115817662, guid: 71220aefc3bdb204daaaf96c0806109b, type: 3}
       propertyPath: m_GravityScale
-      value: 4
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2897602933115817662, guid: 71220aefc3bdb204daaaf96c0806109b, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3809905421789797540, guid: 71220aefc3bdb204daaaf96c0806109b, type: 3}
+      propertyPath: _isMoving
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3809905421789797540, guid: 71220aefc3bdb204daaaf96c0806109b, type: 3}
+      propertyPath: jumpStrength
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4305104764763230521, guid: 71220aefc3bdb204daaaf96c0806109b, type: 3}
       propertyPath: m_Name

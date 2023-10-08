@@ -62,6 +62,7 @@
     <Compile Include="Assets\scripts\(ignore)Spawner.cs" />
     <Compile Include="Assets\scripts\ParallaxEffect.cs" />
     <Compile Include="Assets\scripts\AnimationStrings.cs" />
+    <Compile Include="Assets\scripts\CameraLock.cs" />
     <Compile Include="Assets\input\NewControls.cs" />
     <Compile Include="Assets\scripts\TouchingDirections.cs" />
     <Compile Include="Assets\scripts\PlayerController.cs" />
